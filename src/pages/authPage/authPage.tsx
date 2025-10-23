@@ -1,5 +1,5 @@
 import styles from './authPage.module.scss'
-import AuthForm from '../../form/authForm/authFrom'
+import AuthForm from '../../form/authForm/authForm'
 
 
 export default function AuthPage(){
