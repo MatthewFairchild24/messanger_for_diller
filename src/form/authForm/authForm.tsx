@@ -1,14 +1,22 @@
+import {  useNavigate } from 'react-router-dom'
 import styles from './authForm.module.scss'
 
 export default function AuthForm(){
+
+    const navigate = useNavigate()
+
     const handlerForgotClick = (event:React.MouseEvent<HTMLAnchorElement>) =>{
         event.preventDefault()
         alert('Это пробная штука, потом будет логика для забывашек')
     }
 
-    const handlerButtonClick = (event:React.MouseEvent<HTMLButtonElement>) => {
-        event.preventDefault()
-        alert('Поздравляю вы успешно авторизовались не вводя ничего ;)')
+    // const handlerButtonClick = (event:React.MouseEvent<HTMLButtonElement>) => {
+    //     event.preventDefault()
+    //     alert('Поздравляю вы успешно авторизовались не вводя ничего ;)')
+    // }
+
+    const handlerButtonClick = () => {
+        navigate('/main')
     }
 
     return(<>
