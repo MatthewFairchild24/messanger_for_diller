@@ -1,0 +1,37 @@
+.sectionMainPage{
+    display: flex;
+    flex-direction: row;
+
+    .sectionMenuBar{
+        width: auto;
+
+        .containerBurgerSearch{
+            display: block;
+            flex-direction: row;
+            justify-content: space-around;
+
+            .burger{
+
+            }
+
+            .search{
+
+
+                .inputSearch{
+                    
+                }
+            }
+        }
+
+        .containerGroupFolder{
+
+        }
+    }
+
+
+    .sectionChatWindow{ 
+        background-color: rgb(167, 206, 206);
+        width: 100%;
+
+    }
+}

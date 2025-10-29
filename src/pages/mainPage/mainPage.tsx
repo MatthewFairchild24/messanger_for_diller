@@ -7,9 +7,11 @@ export default function MainPage(){
         <section className={styles.sectionMenuBar}>
             <div className={styles.containerBurgerSearch}>
                 <div className={styles.burger}></div>
-                <div className={styles.search}></div>
+                <div className={styles.search}>
+                    <input type="text" className={styles.inputSearch} />
+                </div>
             </div>
-            <div className={styles.containerGroupFolder}></div>
+            <div className={styles.containerGroupFolder}></div> {/*Потом группировки по папкам */}
             <div className={styles.containerChats}>
                 <ListChat></ListChat>
             </div>
