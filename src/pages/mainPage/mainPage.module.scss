@@ -1,24 +1,41 @@
 .sectionMainPage{
+    height: 100vh;
     display: flex;
     flex-direction: row;
+   
 
     .sectionMenuBar{
         width: auto;
 
         .containerBurgerSearch{
-            display: block;
+            display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-between;
+            padding: 20px 16px 0 ;
+            align-items: center;
 
             .burger{
+                max-width: 34px;
+                padding-left: 4px;
 
+                & img{
+                    max-width: 45px;
+                }
             }
 
             .search{
+                width: 80%;
+                padding-right: 16px ;
 
 
                 .inputSearch{
-                    
+                    width: 100%;
+                    margin: 0;
+                    padding: 5px 8px;
+                    height: 32px;
+                    border-radius: 14px ;
+
+
                 }
             }
         }
@@ -26,12 +43,20 @@
         .containerGroupFolder{
 
         }
+
+        .containerChats{
+            flex: 1;
+            overflow-y: scroll;
+            height: 93%;
+            
+        }
     }
 
 
     .sectionChatWindow{ 
         background-color: rgb(167, 206, 206);
         width: 100%;
+        flex: 1;
 
     }
 }

@@ -21,5 +21,12 @@ export const MockChat: Chat[] = [
         avatar: 'https://avatars.mds.yandex.net/i?id=b27b7504af7920c2d36efd67e596e71bba607442-16455012-images-thumbs&n=13',
         last_message: 'I have pupy tupy',
         timestamp: '21:50'
+    },
+    {
+        id: 4,
+        name: 'ebal ebalovich',
+        avatar: 'https://avatars.mds.yandex.net/i?id=b27b7504af7920c2d36efd67e596e71bba607442-16455012-images-thumbs&n=13',
+        last_message: 'I hafdgldijfhglvijdsnbflgjsdlfjgbnlsdjbnfgljsbdfljgbjlsdfbgjdsbfjlgbsdjlfbgjsdbfjgbsdjbfgjbsjdfbgdbfjgbsjbhdfgjsdbfjgbsdjbfgjsdbjfgbjsdhfbgjhdbve pupy tupy',
+        timestamp: '21:50'
     }
 ]
