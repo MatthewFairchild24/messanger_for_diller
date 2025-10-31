@@ -7,7 +7,8 @@ export default function MainPage(){
         <section className={styles.sectionMenuBar}>
             <div className={styles.containerBurgerSearch}>
                 <div className={styles.burger}>
-                    <img src="/image/burger.png" alt="burger menu" />
+                    <img src="
+                    /image/burger.png" alt="burger menu" />
                 </div>
                 <div className={styles.search}>
                     <input type="text" className={styles.inputSearch} />

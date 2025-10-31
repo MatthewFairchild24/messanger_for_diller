@@ -15,6 +15,10 @@ export default function AuthForm(){
     //     alert('Поздравляю вы успешно авторизовались не вводя ничего ;)')
     // }
 
+    const handleRegClick = () => {
+        navigate('/reg')
+    }
+
     const handlerButtonClick = () => {
         navigate('/main')
     }
@@ -39,6 +43,9 @@ export default function AuthForm(){
                     </div>
                 </div>
                 <button className={styles.button_login} onClick={handlerButtonClick}>LOGIN</button>
+                <div className={styles.containerReg}>
+                    <p>You don`t have an account?</p> <a href="#" onClick={handleRegClick} >Create new</a>
+                </div>
             </div>
         </form>
     </>)
