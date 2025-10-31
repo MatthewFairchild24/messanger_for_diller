@@ -1,0 +1,15 @@
+.sectionRegPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100vh;
+
+    background: url('../../../public/image/back.jpg')  no-repeat fixed ;
+    background-size: cover;
+
+    .containerRegForm{ 
+
+    }
+}

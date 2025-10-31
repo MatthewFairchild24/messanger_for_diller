@@ -1,7 +1,14 @@
+import styles from './regPage.module.scss'
+import { RegForm } from '../../form/regForm'
 
 
 export default function RegPage() {
     return(<>
-        <h1>RegPage</h1>
+        <section className={styles.sectionRegPage}>
+            <div className={styles.containerRegForm}>
+                <RegForm></RegForm>
+            </div>
+
+        </section>
     </>)
 }
